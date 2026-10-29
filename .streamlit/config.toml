@@ -1,0 +1,35 @@
+[server]
+fileWatcherType = "none"
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+# Look: white page, near-black text, dark green for buttons, links, tabs and highlights. Fonts are loaded in app/biotech_app.py.
+[theme]
+base = "light"
+primaryColor = "#1f4d3a"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f5f4"
+textColor = "#141615"
+linkColor = "#1f4d3a"
+borderColor = "#d9ddd9"
+dataframeBorderColor = "#d9ddd9"
+dataframeHeaderBackgroundColor = "#f0f2f0"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "4px"
+buttonRadius = "3px"
+font = "Fira Sans, sans-serif"
+headingFont = "Zilla Slab, serif"
+baseFontSize = 15
+
+[theme.sidebar]
+backgroundColor = "#fafbfa"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#141615"
+primaryColor = "#1f4d3a"
+borderColor = "#d9ddd9"

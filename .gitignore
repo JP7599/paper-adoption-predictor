@@ -1,0 +1,4 @@
+data/raw/_cache/*
+!data/raw/_cache/.keep
+__pycache__/
+*.pyc
